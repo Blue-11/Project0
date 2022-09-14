@@ -14,7 +14,7 @@ public class Project0 {
 
             String inputSentence = JOptionPane.showInputDialog(null, "Please enter a sentence.");
 
-            if(inputSentence.equalsIgnoreCase("Stop")) {
+            if("Stop".equalsIgnoreCase(inputSentence)) {
                 System.exit(0);
             }
 
@@ -26,7 +26,7 @@ public class Project0 {
                     upperCounter++;
                 }
             }
-            JOptionPane.showMessageDialog(null, "The number of lower case e's:" + lowerCounter +  " \nThe number of upper case E's:" + upperCounter);
+            JOptionPane.showMessageDialog(null, "The number of lower case e's: " +lowerCounter +" \nThe number of upper case E's: " +upperCounter);
         }
     }
 }
