@@ -5,7 +5,7 @@ import javax.swing.*;
 public class Project0 {
 
     public static void main(String[] args) {
-
+        // while loop allows user to enter multiple sentences
         while (true) {
             //counter for lower and upper case e's
             int upperCounter = 0;
